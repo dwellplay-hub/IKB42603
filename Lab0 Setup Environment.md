@@ -66,7 +66,7 @@ Expected evidence:
 
 Proof of completion:
 
-<img src="aws --version prints aws-cli2.x.png" alt="AWS CLI verification screenshot" width="700" />
+<img width="685" height="137" alt="aws --version prints aws-cli2 x" src="https://github.com/user-attachments/assets/73fe1216-4869-4beb-bfdb-948ce67a347f" />
 
 ### Step 3: Install and verify kind and kubectl
 
@@ -96,7 +96,7 @@ Expected evidence:
 
 Proof of completion:
 
-<img src="kind --version and kubectl version --client both work..png" alt="kind and kubectl verification screenshot" width="700" />
+<img width="287" height="200" alt="kind --version and kubectl version --client both work" src="https://github.com/user-attachments/assets/d45e998b-7b9f-41a1-941a-89015ab26200" />
 
 ### Step 4: Install and verify helper tools
 
@@ -156,7 +156,7 @@ Expected evidence:
 
 Proof of completion:
 
-<img src="LocalStack starts and curl ...health responds.png" alt="LocalStack verification screenshot" width="800" />
+<img width="675" height="422" alt="LocalStack starts and curl  health responds" src="https://github.com/user-attachments/assets/11bddc8e-2709-403a-953f-5dbf91412cd2" />
 
 ### Step 6: Create and verify the Kubernetes cluster
 
@@ -184,7 +184,7 @@ Expected evidence:
 
 Proof of completion:
 
-<img src="kind create cluster works and kubectl get nodes shows a node..png" alt="kind cluster verification screenshot" width="800" />
+<img width="505" height="347" alt="kind create cluster works and kubectl get nodes shows a node" src="https://github.com/user-attachments/assets/97c537c8-00e5-4c62-be22-d1ef981e4954" />
 
 ### Step 7: Configure AWS CLI for LocalStack
 
@@ -220,7 +220,7 @@ Expected evidence:
 
 Proof of completion:
 
-<img src="aws $EP sts get-caller-identity returns an identity..png" alt="AWS CLI against LocalStack screenshot" width="800" />
+<img width="431" height="305" alt="aws $EP sts get-caller-identity returns an identity" src="https://github.com/user-attachments/assets/f68262c6-4ad6-4ac3-be30-b6fa5479f4b2" />
 
 ## Verification Checklist
 

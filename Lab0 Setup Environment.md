@@ -41,6 +41,7 @@ Expected evidence:
 - The hello-world container runs successfully.
 
 Proof of completion:
+
 <img width="668" height="372" alt="docker --version prints a version, and docker run hello-world works" src="https://github.com/user-attachments/assets/92ca7eff-cae1-4bc5-a96b-95f48aa616c8" />
 
 

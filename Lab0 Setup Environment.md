@@ -134,7 +134,7 @@ Follow these instructions:
 1. Start LocalStack in a container:
 
 ```bash
-docker run -d --name localstack -p 4566:4566 localstack/localstack:3.0
+docker run -d --name localstack -p 4566:4566 localstack/localstack:3.8.1
 ```
 
 2. Check that the service is healthy:

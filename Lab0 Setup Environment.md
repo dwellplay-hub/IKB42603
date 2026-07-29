@@ -41,8 +41,8 @@ Expected evidence:
 - The hello-world container runs successfully.
 
 Proof of completion:
+<img width="668" height="372" alt="docker --version prints a version, and docker run hello-world works" src="https://github.com/user-attachments/assets/92ca7eff-cae1-4bc5-a96b-95f48aa616c8" />
 
-<img src="docker --version prints a version, and docker run hello-world works..png" alt="Docker verification screenshot" width="700" />
 
 ### Step 2: Install and verify AWS CLI v2
 

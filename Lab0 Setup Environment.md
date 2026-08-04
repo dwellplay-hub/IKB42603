@@ -221,7 +221,7 @@ Expected evidence:
 
 Proof of completion:
 
-<img width="431" height="305" alt="aws $EP sts get-caller-identity returns an identity" src="https://github.com/user-attachments/assets/f68262c6-4ad6-4ac3-be30-b6fa5479f4b2" />
+<img width="431" height="305" alt="aws $EP sts get-caller-identity returns an identity" src="https://github.com/user-attachments/assets/1bb6503b-ebd9-462f-93b0-e8422acea592" />
 
 ## Verification Checklist
 

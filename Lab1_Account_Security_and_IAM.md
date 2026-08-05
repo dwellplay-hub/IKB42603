@@ -6,7 +6,7 @@
 **Environment:** LocalStack on `localhost:4566` and kind Kubernetes cluster `ccse-lab1`  
 **Name:** MUHAMMAD DANISH ISYRAQ BIN AB GHANI
 
-## Lab Summary // Objective
+## Lab Summary / Objective
 
 This lab validates core cloud account security practices through hands-on work with local IAM and RBAC systems. The objectives are to:
 

@@ -1,4 +1,4 @@
-# Lab 1: Cloud Account Security, Identity and Access Management
+<img width="507" height="313" alt="5 1" src="https://github.com/user-attachments/assets/f0a4ded3-9170-4d44-b6ff-61161e3fbf84" /># Lab 1: Cloud Account Security, Identity and Access Management
 
 **Course:** IKB42603 Cloud Computing Security Essentials  
 **Lab:** Lab 1
@@ -93,7 +93,7 @@ The `Admins` group was created successfully in LocalStack.
 
 Evidence:
 
-![Admins group creation](Evidence/2.1.png)
+<img width="515" height="267" alt="2 1" src="https://github.com/user-attachments/assets/302e3ac9-62a8-4776-bf7d-903e9cd84582" />
 
 ### Step 2.2: Attach Administrator Policy to Group
 
@@ -127,7 +127,7 @@ This confirms the `Admins` group has administrator privileges attached.
 
 Evidence:
 
-![Attach Administrator policy](Evidence/2.3.png)
+<img width="645" height="207" alt="2 2" src="https://github.com/user-attachments/assets/7863651d-46dd-4866-b8a2-c7b9e555f5ae" />
 
 ### Step 2.3: Create Personal Admin User
 
@@ -143,7 +143,7 @@ The IAM user `CloudAdmin_dani` was created successfully.
 
 Evidence:
 
-![CloudAdmin user creation](Evidence/2.2.png)
+<img width="556" height="67" alt="2 3" src="https://github.com/user-attachments/assets/af245875-911f-457e-8143-d5d18bab3391" />
 
 ### Step 2.4: Add User to Admins Group and Verify Membership
 
@@ -181,7 +181,7 @@ This confirms `CloudAdmin_dani` is a member of the `Admins` group. The user inhe
 
 Evidence:
 
-![Verify Admins membership](Evidence/2.4.png)
+<img width="646" height="348" alt="2 4" src="https://github.com/user-attachments/assets/2e921c03-224c-488d-89f1-7b12a9fce4d5" />
 
 ## Task 3: Enforce Least Privilege with a Scoped Policy
 
@@ -199,7 +199,7 @@ The IAM user `Analyst_jiha` was created successfully.
 
 Evidence:
 
-![Analyst user creation](Evidence/3.1.png)
+<img width="597" height="206" alt="3 1" src="https://github.com/user-attachments/assets/0f08c687-e975-4893-a7c5-0926d2a4a21a" />
 
 ### Step 3.2: Attach S3 Read-Only Policy
 
@@ -235,7 +235,7 @@ This proves `Analyst_jiha` only has the scoped read-only S3 permissions.
 
 Evidence:
 
-![Analyst read-only policy](Evidence/3.3.png)
+<img width="622" height="200" alt="3 3" src="https://github.com/user-attachments/assets/0974e7c7-dd8b-4817-93e8-fc2a396546e6" />
 
 ### Least Privilege Explanation
 
@@ -259,7 +259,7 @@ An access key was generated for `Analyst_jiha`.
 
 Evidence:
 
-![Access key creation](Evidence/4.1.png)
+<img width="636" height="210" alt="4 1" src="https://github.com/user-attachments/assets/d697a7f7-885b-46f6-8940-d5262de9c63b" />
 
 > Security note: The secret access key values are not reproduced in this report. In practice, access keys must never be committed to source control or shared insecurely.
 
@@ -288,7 +288,7 @@ Expected output:
 
 Evidence:
 
-![Access key listing](Evidence/4.2.png)
+<img width="562" height="238" alt="4 2" src="https://github.com/user-attachments/assets/b2a1127f-2330-40ad-bee5-dd7e914c34ce" />
 
 ### Step 4.3: Rotate and Deactivate Old Key
 
@@ -305,7 +305,7 @@ The access key status was updated to `Inactive`, demonstrating credential rotati
 
 Evidence:
 
-![Access key deactivation](Evidence/4.3.png)
+<img width="598" height="137" alt="4 3" src="https://github.com/user-attachments/assets/f3c8a281-ad1e-453d-9523-beb5eb1765fb" />
 
 ## Session B: Kubernetes RBAC
 
@@ -325,7 +325,7 @@ A local `kind` cluster named `ccse-lab1` was created and kubectl context `kind-c
 
 Evidence:
 
-![Cluster setup](Evidence/5.png)
+<img width="683" height="237" alt="5 0" src="https://github.com/user-attachments/assets/3822898b-ef1c-428e-b63e-b098c78c8537" />
 
 ## Task 5: Separate Environments with Namespaces
 
@@ -343,8 +343,8 @@ The namespaces `dev` and `prod` were created successfully and reported as `Activ
 
 Evidence:
 
-![Namespace creation](Evidence/5.0.png)
-![Namespace listing](Evidence/5.1.png)
+<img width="507" height="313" alt="5 1" src="https://github.com/user-attachments/assets/c5f1f04e-21a2-4d0f-9c4b-c2b302faaece" />
+<img width="677" height="340" alt="5" src="https://github.com/user-attachments/assets/4a991f4c-16de-4cb9-a895-dd3997227a2b" />
 
 ## Task 6: Define a Role and Bind It
 
@@ -362,7 +362,7 @@ The service account `dev-user` was created in the `dev` namespace.
 
 Evidence:
 
-![Service account creation](Evidence/6.1.png)
+<img width="462" height="62" alt="6 1" src="https://github.com/user-attachments/assets/73859590-01a3-41b9-9d3a-4716e3353df8" />
 
 ### Step 6.2: Create Pod Reader Role
 
@@ -379,7 +379,7 @@ The `pod-reader` Role was created in namespace `dev` with permissions to `get`, 
 
 Evidence:
 
-![Role creation](Evidence/6.2.png)
+<img width="500" height="96" alt="6 2" src="https://github.com/user-attachments/assets/c82f29ee-96bd-44c6-a7d9-307364f07645" />
 
 ### Step 6.3: Create RoleBinding
 
@@ -396,7 +396,7 @@ The RoleBinding `dev-user-binding` was created in the `dev` namespace, binding t
 
 Evidence:
 
-![RoleBinding creation](Evidence/6.3.png)
+<img width="570" height="87" alt="6 3" src="https://github.com/user-attachments/assets/5f3d2d53-7e44-42c8-b7f2-47b07c9a431d" />
 
 ## Task 7: Test Access Control
 
@@ -438,7 +438,7 @@ These results validate that the `dev-user` service account has access only in th
 
 Evidence:
 
-![RBAC test results](Evidence/7.png)
+<img width="488" height="292" alt="7" src="https://github.com/user-attachments/assets/75e57be8-8e3b-46d5-8a12-f5b1e9628490" />
 
 ## RBAC Verification YAML
 
@@ -468,7 +468,7 @@ roleRef:
 
 Evidence:
 
-![RoleBinding verification](Evidence/Verification-RBAC.png)
+<img width="527" height="367" alt="Verification-RBAC" src="https://github.com/user-attachments/assets/4646c366-b541-4289-bae7-74db59135965" />
 
 ## Short-Answer Questions
 

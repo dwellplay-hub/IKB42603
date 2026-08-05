@@ -1,4 +1,4 @@
-<img width="507" height="313" alt="5 1" src="https://github.com/user-attachments/assets/f0a4ded3-9170-4d44-b6ff-61161e3fbf84" /># Lab 1: Cloud Account Security, Identity and Access Management
+# Lab 1: Cloud Account Security, Identity and Access Management
 
 **Course:** IKB42603 Cloud Computing Security Essentials  
 **Lab:** Lab 1

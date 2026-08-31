@@ -74,7 +74,7 @@ curl -s -u 'P@ssword!' http://localhost:8080
 ### Observed output
 
 ```text
-401
+200
 Authenticated OK
 ```
 
@@ -142,7 +142,7 @@ kubectl auth can-i delete pods -n app --as=$SA
 
 ```text
 yes
-yes
+no
 no
 ```
 
